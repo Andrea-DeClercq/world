@@ -6,7 +6,7 @@ session_start();?>
         $continent = $_GET['continent'];
         //$capital = $_GET['capital'];
         $ville = getVilleByCountry($idCountry);
-        //$pays = getCountriesByContinent($continent);
+        $paysC = getCountriesByContinent($continent);
         $pays = getCountryById($idCountry);
         $capitale = getCapitalNameByIdCity($pays->Capital);
         ?>
@@ -24,7 +24,7 @@ session_start();?>
             <td><?php echo $continent ?></td>
             <td><?php echo $pays->Name ?></td>
             <td><?php echo $capitale ?></td>
-            <td><?php $pays->Population ?></td>
+            <td><?php echo $pays->Population ?></td>
         </tr>
     </table>
 
