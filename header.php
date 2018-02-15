@@ -63,8 +63,7 @@
     </a>
     <a>
         <div class="item ui dropdown">
-            <div class="text">Continent</div>
-            <i class="dropdown icon"></i>
+            <div class="text">Continent<i class="dropdown icon"></i></div>
             <div class="menu">
                 <div class="item"><a href="continent.php?continent=North%20America"><p>North America</a></div>
                 <div class="item"><a href="continent.php?continent=South%20America"><p>South America</a></div>
