@@ -18,7 +18,12 @@ session_start ();?>
     <div>
       <?php
       require_once 'inc/manager-db.php';
-      $continent = $_GET['continent'];
+      if (isset($_GET['continent'])){
+          $continent = $_GET['continent'];
+      }
+       else {
+          $continent = '';
+
       $pays = getCountriesByContinent($continent);
       //var_dump($pays[0]);
       if (isset($_SESSION['nom']) && isset($_SESSION['role'])) {
@@ -50,10 +55,10 @@ session_start ();?>
                     <td><?php echo $p->Population ?></td>
                     </tr>
                     <?php }?>
-        </tr>
+        </thead>
     </table>
     <p></p>
-
+    <?php  } ?>
     <div class="ui one column grid">
         <div class="column">
             <div class="ui raised segment">
