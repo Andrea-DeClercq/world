@@ -1,14 +1,25 @@
 <?php require_once 'header.php';?>
-    <div class="ui container main">
-    <div class="ui one column grid">
+
+<br/><br/>
+<div class="ui container main">
+    <div class="ui one column centered grid">
         <div class="column">
-    <form action="connect.php" method="post">
-    Votre login : <input type="text" name="login"><br />
-    Votre mot de passe : <input type="password" name="pwd"><br />
-    <input type="submit" value="Connexion">
-</form>
+            <div class="ui raised segment">
+                <a class="ui red ribbon label">Login</a>
+                     <form class="ui form" action="connect.php" method="post">
+                         <div class="field">
+                             <label id="login">Votre login : </label>
+                             <input id="login" type="text" name="login">
+                         </div><br />
+                         <div class="field">
+                             <label id="password">Votre mot de passe : </label>
+                             <input id="password" type="password" name="pwd">
+                         </div><br />
+                        <input class="ui button" type="submit" value="Connexion">
+                     </form>
+                </div>
+            </div>
         </div>
-</div>
     </div>
 <?php
 require_once 'javascripts.php';

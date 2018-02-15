@@ -58,7 +58,7 @@ function getCapitalNameByIdCity($idCity){
 
 
 function getAuthentification($pdo,$login,$pass){
-    $query = "SELECT * FROM login where login=:login and password=:pass";
+    $query = 'SELECT * FROM login where login=:login and password=:pass';
     $prep = $pdo->prepare($query);
     $prep->bindValue(':login', $login);
     $prep->bindValue(':pass', $pass);

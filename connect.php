@@ -12,7 +12,7 @@ if (isset($_POST['login']) && isset($_POST['pwd']) && !empty($_POST['login'])&& 
 // on la démarre la session
         session_start ();
 // on enregistre les paramètres de notre visiteur comme variables de session
-        $_SESSION['nom'] = $result['nom'];
+        $_SESSION['login'] = $result['login'];
         $_SESSION['identifiant'] = $result['idsalaries'];
         $_SESSION['role'] = $result['role'];
 // on redirige notre visiteur vers une page de notre section membre

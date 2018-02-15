@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="semantic/components/icon.css">
     <link rel="stylesheet" type="text/css" href="semantic/components/sidebar.css">
     <link rel="stylesheet" type="text/css" href="semantic/components/transition.css">
+    <link rel="stylesheet" type="text/css" href="semantic/components/form.css">
     <!-- Regles CSS définies ou redéfinies, pour cette application -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
@@ -77,9 +78,9 @@
         Item2
     </a>
     <div class="right menu">
-        <a class="ui item" href='login.php'>
-            Login
-        </a>
+        <?php if (isset($_SESSION['login'])) {?><a class="ui item" href="profil.php"> <?php echo $_SESSION['login']; }?></a>
+        <?php if (!isset($_SESSION['login'])) { ?><a class="ui item" href='login.php'>Login</a><?php } ?>
+
         <a class="item" href="todo-projet.php">
             ProjetPPE-SLAM
         </a>
