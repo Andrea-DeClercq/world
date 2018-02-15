@@ -46,9 +46,9 @@
                             .siblings().removeClass('active')
                         ;
                     })
+                ;
                 $('.ui.dropdown')
                     .dropdown()
-                ;
                 ;
             })
         ;
@@ -65,12 +65,12 @@
             <div class="text">Continent</div>
             <i class="dropdown icon"></i>
             <div class="menu">
-                <div class="item"><a href="?continent=North%20America"><p>North America</a></div></p>
-                <div class="item"><a href="?continent=South%20America"><p>South America</a></div></p>
-                <div class="item"><a href="?continent=Africa"><p>Africa</a></div></p>
-                <div class="item"><a href="?continent=Europe"><p>Europe</a></div></p>
-                <div class="item"><a href="?continent=Asia"><p>Asia</a></div></p>
-                <div class="item"><a href="?continent=Oceania"><p>Oceania</a></div></p>
+                <div class="item"><a href="continent.php?continent=North%20America"><p>North America</a></div>
+                <div class="item"><a href="continent.php?continent=South%20America"><p>South America</a></div>
+                <div class="item"><a href="continent.php?continent=Africa"><p>Africa</a></div>
+                <div class="item"><a href="continent.php?continent=Europe"><p>Europe</a></div>
+                <div class="item"><a href="continent.php?continent=Asia"><p>Asia</a></div>
+                <div class="item"><a href="continent.php?continent=Oceania"><p>Oceania</a></div>
             </div>
         </div>
     </a>
