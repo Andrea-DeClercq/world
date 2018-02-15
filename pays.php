@@ -1,19 +1,5 @@
-<?php require_once 'header.php';?>
-
-<div class="ui container main">
-    <div class="ui dropdown">
-        <div class="text">Continent</div>
-        <i class="dropdown icon"></i>
-        <div class="menu">
-            <div class="item"><a href="index.php?continent=North%20America">North America</a></div>
-            <div class="item"><a href="index.php?continent=South%20America">South America</a></div>
-            <div class="item"><a href="index.php?continent=Africa">Africa</a></div>
-            <div class="item"><a href="index.php?continent=Europe">Europe</a></div>
-            <div class="item"><a href="index.php?continent=Asia">Asia</a></div>
-            <div class="item"><a href="index.php?continent=Oceania">Oceania</a></div>
-        </div>
-    </div>
-    <div>
+<?php require_once 'header.php';
+session_start();?>
         <?php
         require_once 'inc/manager-db.php';
         $idCountry = $_GET['idCountry'];
