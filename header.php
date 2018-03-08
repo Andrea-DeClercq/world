@@ -87,7 +87,7 @@
         </a>
         <div class="item">
             <div class="ui icon input">
-                <input type="text" placeholder="Search...">
+                <input type="text" placeholder="Ça ne cherche rien...">
                 <i class="search link icon"></i>
             </div>
         </div>
