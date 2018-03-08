@@ -78,8 +78,9 @@
         Item2
     </a>
     <div class="right menu">
-        <?php if (isset($_SESSION['login'])) {?><a class="ui item" href="profil.php"> <?php echo $_SESSION['login']; }?></a>
         <?php if (!isset($_SESSION['login'])) { ?><a class="ui item" href='login.php'>Login</a><?php } ?>
+        <?php if (isset($_SESSION['login'])) {?><a class="ui item" href="profil.php"><?php echo $_SESSION['login']; ?></a>
+            <a class="uiitem" href="logout.php"> </br> <i class="power icon"></i></a>  <?php } ?>
 
         <a class="item" href="todo-projet.php">
             ProjetPPE-SLAM

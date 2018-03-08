@@ -8,7 +8,7 @@
     <br/><br/>
     </center>
 
-    <div class="ui one column grid">
+    <div class="ui two column centered grid">
         <div class="column">
             <div class="ui raised segment">
                 <a class="ui red ribbon label">Tableau d'objets</a>
