@@ -15,7 +15,10 @@
                              <input id="password" type="password" name="pwd">
                          </div><br />
                         <input class="ui button" type="submit" value="Connexion">
-                     </form>
+                     </form><br/>
+                    <form class="ui form" action="newuser.php" method="post">
+                        <input class="ui button" type="submit" value="Nouveau Utilisateur">
+                    </form>
                 </div>
             </div>
         </div>
