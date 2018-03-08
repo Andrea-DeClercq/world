@@ -1,7 +1,7 @@
 <?php require_once 'header.php';?>
 
 <div class="ui container main">
-    <div class="ui one column centered grid">
+    <div class="ui two column centered grid">
         <div class="column">
             <div class="ui raised segment">
                 <a class="ui red ribbon label">Login</a>
