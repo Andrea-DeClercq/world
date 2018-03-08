@@ -4,7 +4,7 @@
     <center><h1>Bienvenue sur le site de la team Diablo III</h1></center>
     <br/>
 
-    <div class="ui one column grid">
+    <div class="ui two column centered grid">
         <div class="column">
             <div class="ui raised segment">
                 <a class="ui red ribbon label">Tableau d'objets</a>
