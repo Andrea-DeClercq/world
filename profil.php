@@ -7,6 +7,11 @@
             <div class="ui raised segment">
                 <a class="ui purple ribbon label">Vos données</a>
                 <p>Pseudo  : <?php echo $_SESSION['login'] ?></p>
+                <p>Role : <?php if ($_SESSION['role']=='normal')
+                    echo "Utilisateur" ;
+                    if ($_SESSION ['role']=='admin')
+                    echo "Admin"; ?>
+                </p>
             </div>
         </div>
     </div>
