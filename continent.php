@@ -1,7 +1,4 @@
 <?php require_once 'header.php';
-session_start ();?>
-// On teste pour voir si nos variables de session ont bien été enregistrées
-<?php
 require_once 'inc/manager-db.php';
 $continent = $_GET['continent'];
 $pays = getCountriesByContinent($continent);

@@ -1,6 +1,8 @@
 <?php require_once 'header.php'; ?>
-// On teste pour voir si nos variables de session ont bien été enregistrées
-    <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH</p>
+
+    <br/>
+    <center><h1>Bienvenue sur le site de la team Diablo III</h1></center>
+    <br/>
 
     <div class="ui one column grid">
         <div class="column">
