@@ -1,8 +1,12 @@
 <?php require_once 'header.php'; ?>
 
+    <center>
     <br/>
-    <center><h1>Bienvenue sur le site de la team Diablo III</h1></center>
+    <h1>Bienvenue sur le site de la team Diablo III</h1>
     <br/>
+    <img src="https://www.affairesdegars.com/webroot/usr_img/55912830/diablo-3-ultimate-evil-edition_1.jpeg" alt="Diablo picture" style="width:1280px;height:720px;">
+    <br/><br/>
+    </center>
 
     <div class="ui one column grid">
         <div class="column">
