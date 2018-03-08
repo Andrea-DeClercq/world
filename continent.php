@@ -9,6 +9,8 @@ if (isset($_SESSION['nom']) && isset($_SESSION['role'])) {
 }
 ?>
 <h1><?php echo $continent ?></h1>
+    <div class="ui grid centered">
+        <div class="fourteen wide column">
 <table class="ui celled table">
     <thead>
     <tr>
@@ -32,6 +34,8 @@ if (isset($_SESSION['nom']) && isset($_SESSION['role'])) {
     </tr>
     <?php }?>
 </table>
+    </div>
+    </div>
 <?php
 require_once 'javascripts.php';
 require_once 'footer.php'; ?>

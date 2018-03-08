@@ -10,6 +10,8 @@
         ?>
     </div>
     <h1>Informations du pays</h1>
+    <div class="ui grid centered">
+    <div class="fourteen wide column">
     <table class="ui celled table">
         <a class="ui blue ribbon label">Description</a>
         <tr>
@@ -42,6 +44,8 @@
 
         </tr>
     </table>
+    </div>
+    </div>
     <p></p>
 <?php
 require_once 'javascripts.php';
