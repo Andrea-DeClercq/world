@@ -1,6 +1,4 @@
 <?php require_once 'header.php';
-session_start();?>
-        <?php
         require_once 'inc/manager-db.php';
         $idCountry = $_GET['idCountry'];
         $continent = $_GET['continent'];
