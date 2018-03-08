@@ -1,6 +1,5 @@
 <?php require_once 'header.php';?>
 
-<br/><br/>
 <div class="ui container main">
     <div class="ui one column centered grid">
         <div class="column">
@@ -8,11 +7,11 @@
                 <a class="ui red ribbon label">Login</a>
                      <form class="ui form" action="connect.php" method="post">
                          <div class="field">
-                             <label id="login">Votre login : </label>
+                             <label for="login">Votre login : </label>
                              <input id="login" type="text" name="login">
                          </div><br />
                          <div class="field">
-                             <label id="password">Votre mot de passe : </label>
+                             <label for="password">Votre mot de passe : </label>
                              <input id="password" type="password" name="pwd">
                          </div><br />
                         <input class="ui button" type="submit" value="Connexion">

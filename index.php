@@ -1,5 +1,4 @@
-<?php require_once 'header.php';
-session_start ();?>
+<?php require_once 'header.php'; ?>
 // On teste pour voir si nos variables de session ont bien été enregistrées
     <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH</p>
 
